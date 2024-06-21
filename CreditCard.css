@@ -1,0 +1,238 @@
+/* body{
+ width: 100%;
+ height: 100%;
+} */
+.parent{
+    width: 400px;
+    height: 248px;
+    background-color: aqua;
+    background-image: url(./bgg3.png);
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 4px rgb(5, 5, 33);
+}
+.sbicard{
+    width: 100%;
+    height: 20%;
+    /* background-color: black; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: relative;
+}
+.sbilogo{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    /* background-color: aqua; */
+    justify-content: space-around;
+} 
+.logo{
+    width: 100%;
+    height: 100%;
+}
+.img1{
+    width:30%;
+    height: 100%;
+    
+}
+.img2{
+    width: 45%;
+    height: 45%;
+    border-radius: 40px;
+    position: relative;
+    left: +35px;
+    top: +5px;
+    box-shadow: 0px 0px 1px 1px  #c2d5d7;
+}
+.sbi{
+    font-family: Lucida;
+    color: white;
+    width:30%;
+    height: 100%;
+    font-size: 30px;
+    position: relative;
+    text-shadow: 1px 1px #c2d5d7;
+    left: 10px;
+
+}
+.card{
+    font-family: Lucida;
+    color: rgb(18, 193, 228);
+    width:30%;
+    height: 100%;
+    font-size: 30px;
+    position: relative;
+    left: -3px;;
+    text-shadow: 1px 1px #c2d5d7;
+
+}
+.div2{
+    width: 100%;
+    height: 40%;
+    /* background-color: black; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+}
+.chip{
+    width: 80px;
+    height: 60px;
+    position: relative;
+    background-color: aqua;
+    left: 20px;
+    top: +10px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 2px 2px grey;
+}
+img{
+    width: 80px;
+    height: 60px;
+    position: relative;
+    border-radius: 2px;
+}
+.div3{
+    position: relative;
+    top: -5px;
+}
+.SimplySave{
+    font-size: 33px;
+    font-family: Calibri;
+    color: whitesmoke;
+    position: relative;
+    top: +25px;
+    left: +150px;
+    text-shadow: 1.2px 1.2px #c2d5d7;
+
+}
+.Advanced{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: +10px;
+    left: +150px;
+}
+.content{
+    font-size: 13px;
+    font-family: Calibri;
+    color: rgb(235, 221, 221);
+    width: 100%;
+    left: +170px;
+    text-shadow: 0.8px 0.8px #c2d5d7;
+
+}
+.number{
+    display: flex;
+    height: 20%;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: -20px;
+}
+.num1{
+    font-family: 'Lucida Sans', 'Lucida', 'Lucida Grande', sans-serif;
+    font-size: 25px;
+    position: relative;
+    color: white;
+    text-shadow: 1px 1px #c2d5d7;
+
+}
+#num4321{
+    left: +10px;
+}
+#num8901{
+    left: -12px;
+}
+.footer{
+    width: 100%;
+    height: 30%;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: -23px;
+}
+.name{
+    width: 75%;
+    height: 90%;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: space-around;
+    text-shadow: 1px 1px #c2d5d7;
+    text-shadow: 1px 1px #c2d5d7;
+}
+.visa{
+    width: 20%;
+    height: 90%;
+    position: relative;
+    left: -5px;
+    text-shadow: 1px 1px #c2d5d7;
+
+    /* background-color: blanchedalmond; */
+}
+.lower{
+    /* background-color: black; */
+    height: 50%;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+.upper{
+    /* background-color: aquamarine; */
+    height: 90%;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    color: whitesmoke;
+    font-size: 25px;
+    left: +6px;
+    position: relative;
+    top: +2px;
+    font-family: Calibri;
+
+}
+.name1{
+    width: 30%;
+    height: 100%;
+    /* background-color: blueviolet; */
+    font-size: 12px;
+    font-weight: 100px;
+    color: whitesmoke;
+    position: relative;
+    top: +10px;
+    left: -25px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.num2{
+    width: 65%;
+    height: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 34px;
+    color: whitesmoke;
+    position: relative;
+    top: +6px;
+    left: -25px;
+}
+.name3{
+    height: 60%;
+    width: 100%;
+    /* background-color: blueviolet;
+    font-family: Calibri;
+    font-size: 38px; 
+    /* color: whitesmoke; */
+}
+.name4{
+    position: relative;
+    top: -1px;
+    left: +2px;
+    color: whitesmoke;
+    font-family: Calibri;
+}
