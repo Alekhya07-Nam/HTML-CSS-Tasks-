@@ -1,0 +1,250 @@
+body{
+    width: 100%;
+    height: 100svh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.parent{
+    width: 40%;
+    height: 90%;
+    border: 1px solid black;
+    box-shadow: 0px 0px 6px 6px grey;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.innerdiv{
+    width: 96%;
+    height: 96%;
+    border: 1px solid black;
+    border-radius: 50%;
+    box-shadow: 0px 0px 6px 6px grey;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.numbers{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.twleve{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-size: 85px;
+}
+.one_eleven{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.two_ten{
+    display: flex;
+    justify-content: center;
+}
+.three_nine{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: +13px;
+}
+.four_eight{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: +13px;
+}
+.five_seven{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: +15px;
+}
+.six{
+    display: flex;
+    justify-content: center;
+}
+#first{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    left: -130px;
+}
+#second{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    left: +130px;
+}
+.two10{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    left: -210px;
+}
+.nine{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    left: -210px;
+}
+.eight{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    left: -210px;
+}
+.seven{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    left: -120px;
+}
+.two{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    left: +200px;
+}
+.three{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    left: +215px;
+}
+.four{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    left: +210px;
+    top: +5px;
+}
+.five{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    left: +130px;
+}
+.six{
+    position: relative;
+    top: -80px;
+}
+.onetwo{
+    position: relative;
+    top: -50px;
+}
+.upper{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: relative;
+    top: +28px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.center{
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    /* top: +80px; */
+}
+.minute{
+    width:0.2%;
+    height:58%;
+}
+.minutehand{
+    width: 100%;
+    height: 100%;
+    top: +50px;
+    position: relative;
+    left: -305px;
+    top: +18px;
+    animation-name: minuteshand;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+.minutediv{
+    width: 100%;
+    height: 50%;
+    background-color: black;
+}
+.minutediv1{
+    width: 100%;
+    height: 5%;
+    background-color: black;
+}
+.second{
+    width: 0.2%;
+    height: 50%;
+    animation-name: minuteshand;
+    animation-duration: 3600s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+.secondhand{
+    width: 100%;
+    height: 50%;
+    border: 1px solid black;
+    background-color: black;
+    position: relative;
+    left: -305px;
+    top: +30px;
+}
+.hour{
+    width: 0.3%;
+    height: 50%;
+    animation-name: minuteshand;
+    animation-duration: 43200s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+ .hourshand{
+    width: 100%;
+    height: 45%;
+    border: 1px solid black;
+    background-color: black;
+    position: relative;
+    top: +116px;
+    left: -250px;
+    transform: rotate(90deg);
+} 
+
+@keyframes minuteshand{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.middle{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
