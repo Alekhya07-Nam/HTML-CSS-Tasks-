@@ -1,0 +1,123 @@
+body{
+    width: 100%;
+    height: 100svh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.parent{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.parent2{
+    width: 500px;
+    height: 500px;
+    border: 2px solid blue;
+    border-radius: 50%;
+}
+.moon{
+    width: 100%;
+    height: 50%;
+    background-image: url(./Screenshot\ 2024-06-27\ 212415.png);
+    /* red */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    animation-name: moondiv;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.sun{
+    width: 100%;
+    height: 50%;
+    /* background-color: black; */
+    background-image: url(./Moon.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    animation-name: sundiv;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.moon_1{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid black;
+    position: relative;
+    top: +50px;
+    background: linear-gradient(to bottom, #C4CDCD,#DFE4E2,#C4CDCD);
+    box-shadow: 0px 0px 3px 3px rgb(181, 178, 178);
+    animation-name: moon;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.sun_1{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid black; 
+    background: linear-gradient(to bottom, orange,yellow,orange);
+    box-shadow: 0px 0px 3px 3px yellow;
+    position: relative;
+    top: -50px;
+    animation-name: sun;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes moon{
+    0%{
+        transform: rotate(0deg) translateX(250px);
+    }
+    100%{
+        transform: rotate(360deg) translateX(250px);
+    }
+}
+@keyframes sun{
+    0%{
+        transform: rotate(0deg) translateX(-250px);
+    }
+    100%{
+        transform: rotate(360deg) translateX(-250px);
+    }   
+}
+@keyframes moondiv{
+     0%{
+        background-image: url(./Screenshot\ 2024-06-27\ 212415.png);
+    }
+    25% {
+        background-image: url(./Screenshot\ 2024-06-27\ 212415.png);
+    }
+    50%{
+        background-image: url(./Moon.jpg);
+    }
+    75% {
+        background-image: url(./Moon.jpg);
+    }
+    100%{
+        background-color: url(./Screenshot\ 2024-06-27\ 212415.png);
+    } 
+}
+@keyframes sundiv {
+    0%{
+        background-image: url(./Moon.jpg);
+    }
+    25% {
+        background-image: url(./Moon.jpg);
+    }
+    50%{
+        background-image: url(./Screenshot\ 2024-06-27\ 212415.png);
+    }
+    75% {
+        background-image: url(./Screenshot\ 2024-06-27\ 212415.png);
+    }
+    100%{
+        background-image: url(./Moon.jpg);
+    } 
+}
